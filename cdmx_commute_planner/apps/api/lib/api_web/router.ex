@@ -7,6 +7,9 @@ defmodule ApiWeb.Router do
 
   scope "/api", ApiWeb do
     pipe_through :api
+
+    get "/route", MetroCdmxController, :index
+
   end
 
   # Enables LiveDashboard only for development

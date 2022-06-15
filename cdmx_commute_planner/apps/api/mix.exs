@@ -47,6 +47,8 @@ defmodule Api.MixProject do
       {:telemetry_poller, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
+      {:sweet_xml, "~> 0.7.1"},
+      {:libgraph, "~> 0.13.3"},
       {:core, in_umbrella: true}
     ]
   end
